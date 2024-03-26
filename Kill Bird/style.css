@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-image: url(70bf057fc74ec01a2190ec5e4d77064b.png);
+    background-size: cover;
+    overflow: hidden;
+    cursor: url(sniper.png), auto;
+  }
+
+  #background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    
+  }
+
+  #bird {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background-image: url('bird1.png'); 
+    background-size: cover;
+    
+  }
+
+  #gun {
+    justify-content: left;
+    position: relative;
+    width: 170px;
+    height: 130px;
+    margin-top: 540px;
+    background-image: url('gun.png'); 
+  background-size: cover;
+  
+}
+.heddin{
+  visibility: hidden;
+}
